@@ -88,7 +88,7 @@ config/
 
 ### Clone Repo
 
-git clone https://github.com/Yashasgm07/PDF-RAG-Chatbot.git  
+git clone https://github.com/Harishbabus0405/PDF-RAG-Chatbot.git
 cd PDF-RAG-Chatbot  
 
 ### Install
@@ -149,5 +149,5 @@ Developed a multi-document PDF chatbot using Retrieval-Augmented Generation (RAG
 
 ## 👨‍💻 Author
 
-Yashas G M  
-GitHub: https://github.com/Yashasgm07
+Harish Babu S
+GitHub: https://github.com/Harishbabus0405
