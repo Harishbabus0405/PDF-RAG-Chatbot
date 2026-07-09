@@ -13,7 +13,8 @@ from app.rag_pipeline import build_qa_system
 # -----------------------------
 st.set_page_config(page_title="PDF Chatbot", layout="wide")
 
-# -----------------------------
+# -------------------------
+# ----
 # Ensure folders exist (🔥 FIX FOR DEPLOYMENT)
 # -----------------------------
 os.makedirs("data/raw", exist_ok=True)
@@ -47,7 +48,7 @@ st.markdown("""
 # -----------------------------
 # Title
 # -----------------------------
-st.title("📄 PDF Chatbot (RAG)")
+st.title("📄 DocuMInd AI")
 st.caption("Multi-document AI assistant powered by RAG + Groq ⚡")
 
 # -----------------------------
