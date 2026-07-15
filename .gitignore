@@ -1,6 +1,17 @@
+# Virtual Environment
+.venv/
 venv/
-__pycache__/
+
+# Environment Variables
 .env
-data/raw/
-data/db/
+
+# Python Cache
+__pycache__/
 *.pyc
+
+# Generated Files
+*.pkl
+*.faiss
+
+# Data
+data/
