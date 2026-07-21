@@ -3,6 +3,7 @@ langchain
 langchain-community
 faiss-cpu
 sentence-transformers
+torchvision
 python-dotenv
 groq
 pypdf
