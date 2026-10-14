@@ -1,0 +1,68 @@
+# DocuMind AI - Git Ignore Configuration
+
+# Environments and Secrets
+.env
+.env.*
+*.env
+*.env.*
+!.env.example
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Node & Frontend Build
+node_modules/
+dist/
+dist-ssr/
+*.local
+.npm/
+.eslintcache
+.vite/
+
+# Document Storage & Generated Indexes (Local RAG artifacts)
+data/uploads/*
+!data/uploads/.gitkeep
+data/indexes/*
+!data/indexes/.gitkeep
+data/embeddings/*
+!data/embeddings/.gitkeep
+data/vector_store/*
+!data/vector_store/.gitkeep
+*.faiss
+*.index
+*.pkl
+*.npy
+
+# IDE & OS Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & Temporary Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+backend/logs/
+*.tmp
